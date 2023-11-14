@@ -1,0 +1,47 @@
+input 
+{
+    width: 234px;
+    height: auto;
+    display: grid;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Table
+{
+    display: table;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.Square, .Triangle, .Circle 
+{
+    width: max-content;
+    display: -ms-grid;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.Square 
+{
+    opacity: 0.8;
+}
+
+.Triangle 
+{
+    opacity: 0.8;
+}
+
+.Circle 
+{
+    opacity: 0.8;
+}
+
+.Draw_Field 
+{
+    width: 1800px;
+    height: 800px;
+    display: flex;
+}
